@@ -21,7 +21,6 @@ rm -rf feeds/luci/applications/luci-app-pushbot feeds/luci/applications/luci-app
 find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
 #git clone --depth 1 https://github.com/sbwml/packages_lang_golang feeds/packages/lang/golang
 # 下载插件
-git clone --depth 1 https://github.com/fw876/helloworld package/helloworld
 git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 git clone --depth 1 https://github.com/chenmozhijin/luci-app-adguardhome package/luci-app-adguardhome
